@@ -11,12 +11,6 @@ Testing Files:
 - "ModelTesting_RoadSegmentation.ipynb" (Testing with Video File)
 - "ModelTesting_Webcam_RoadSegmentation.ipynb" (Testing with Camera) 
 
-Dataset:
-- "RoadSeg2.v3i.700img_Original" (Images)
-- "RoadSeg2.v3i.700img_Masks" (Labels)
-
 Model Folders:
 - "Trained_Model - (OriginalPARAM)" [V1]
 - "Trained_Model - (NewPARAM)" [V2]
-
-PS. The Dataset is located in the zip file "Project_CV_Group1.zip"
