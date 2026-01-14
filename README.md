@@ -17,10 +17,11 @@ Model Folders:
 
 
 **Dataset**
-BDD100K: A road segmentation dataset sourced from Berkley DeepDrive. (http://bdd-data.berkeley.edu/download.html)
-Dashcam: A dataset consisting of our dashcam footage strolling around Alam Sutera.
+- BDD100K: A road segmentation dataset sourced from Berkley DeepDrive. (http://bdd-data.berkeley.edu/download.html)
+- Dashcam: A dataset consisting of our dashcam footage strolling around Alam Sutera.
 
 **Methodology**
+
 Training Model Pipeline:
 1. Extract Dataset: Unzips and sets image_base / label_base for images and masks
 2. Loading+Pre-processing: Reads image and masks, resizes to 256x256, scales images and masks to [0,1].
@@ -39,6 +40,7 @@ Testing Model Pipeline:
 5. Visualization: Segmentation mask is resized back to original frame size. The detected road area is overlaid in green occupancy grid on the original frame, displayed in real-time.
 
 **Analysis**
+
 Training Model (V1) keeps data closer to the original imaages and masks.
 - Image scaling: Normalizes pixel values
 - Image distribuition: Origianl brightness preserved
