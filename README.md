@@ -40,18 +40,18 @@ Testing Model Pipeline:
 
 **Analysis**
 Training Model (V1) keeps data closer to the original imaages and masks.
-  Image scaling: Normalizes pixel values
-  Image distribuition: Origianl brightness preserved
-  Brightness augmentation impact: Strong
-  Mask values: Soft non-binary labels
-  Label noise control: Low
+- Image scaling: Normalizes pixel values
+- Image distribuition: Origianl brightness preserved
+- Brightness augmentation impact: Strong
+- Mask values: Soft non-binary labels
+- Label noise control: Low
 
 Training Model (V2) Enforces stricter normalization and cleaner labels, but reduces lighting variation
-  Image scaling: Divides pixel values by 255 + Standardization
-  Image distribuition: Data centered at Zero with consistent spread
-  Brightness augmentation impact: Weak
-  Mask values: Strict binary labels
-  Label noise control: High
+- Image scaling: Divides pixel values by 255 + Standardization
+- Image distribuition: Data centered at Zero with consistent spread
+- Brightness augmentation impact: Weak
+- Mask values: Strict binary labels
+- Label noise control: High
 
 Github Link Code, Documentation & Presentation: https://github.com/dhikawahi12/Road-Semantic-Segmentation
 
